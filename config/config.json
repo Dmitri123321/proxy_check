@@ -1,0 +1,19 @@
+{
+  "path_j_index": "index/j_index.txt",
+  "path_chrome_webdriver": "C:/drivers/chromedriver.exe",
+  "path_firefox_webdriver": "C:/drivers/geckodriver.exe",
+  "enable_proxy": true,
+  "proxy_autentification": true,
+  "user-agents": "user-agents/user-agents.csv",
+  "proxy": "proxies/proxy.txt",
+  "path_list_valid_proxy": "proxies/valid_proxy.txt",
+  "path_list_proxy_error": "proxies/proxy_errors.txt",
+  "chek_proxy": false,
+  "thread_count": "2",
+  "pageLoadStrategy": "eager",
+  "cache_menegment": false,
+  "pageload_timeout": "30",
+  "implicitly_wait": "1"
+
+
+}
