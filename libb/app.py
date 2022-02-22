@@ -23,6 +23,7 @@ class App:
         self.config = read_json('config/config.json')
         self.log_error = logger(name='error', mode='w')
         self.log_debug = logger(name='debug', mode='w')
+        self.this_is_huinya = True
         if self.config['chek_proxy']:
             pass
         else:
