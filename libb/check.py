@@ -1,8 +1,8 @@
-from libb.opening import *
+import requests
 
 
 def check(app):
-    driver = opening(app, 'Chrome')
+
     url = 'https://2ip.ru'
-    driver.get(url)
+    requests.get(url)
     input()
